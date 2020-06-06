@@ -1,0 +1,2133 @@
+@media only screen and (min-width: 1200px){
+    nav{
+        background-color: black;
+        height: 100%;
+        border-bottom: 1px solid gray ;
+    }
+    
+    .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .nav-item {
+        
+        position: relative; 
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    .mr-auto{    
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%); 
+    }
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    .nav-item a{
+        
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+     .dropdown-item{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+     }
+     
+     .dropdown-menu a:hover{
+         color: white;
+         background-color: black;
+     }
+    
+     .dropdown-menu a{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .dropdown-toggle:after {
+        visibility: hidden;
+    }
+    .fa-user{
+        position: relative;
+        top: 0.5rem;
+    }
+    .fa-shopping-cart{
+        position: relative;
+        top: 0.5rem;
+    }
+    .carousel{
+        background-color: gray;
+        
+    }
+    .img{
+        width: 30rem;
+        height: 37.6rem;
+    }
+    .text{
+        background-color: whitesmoke;
+        position: relative;
+        margin-top: -0.5rem;
+        height: 100%;
+    }
+    .heading1{
+        position: relative;
+        margin-top: 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .para{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .heading2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+    .heading2:hover{
+        text-decoration: underline;
+    }
+    #carouselExampleCaptions{
+        height: 27.rem;
+    }
+    .img2{
+        width: 30rem;
+        height: 27rem;
+    }
+    .carousel-caption p{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .subscription{
+        height: 6rem;
+        
+        background-color: whitesmoke;
+    }
+    /* .box{
+        background-color: #000;
+        position: relative;
+        left: 10rem;
+        width: 7rem;
+        height: 3rem;
+    } */
+    
+    .text2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .text2:hover{
+        text-decoration: underline;
+    }
+    .text3{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        position: relative;
+        right: 3rem;
+    }
+    .text4{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        position: relative;
+        bottom: 2.7rem;
+        left:22.7rem;
+    }
+    .text4:hover{
+        text-decoration: underline;
+    }
+    .links{
+        background-color: lightgray;
+        height: 22rem;
+        
+    }
+    
+    .help{
+        position: relative;
+        top: 4rem;
+        left: 10rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+    }
+    .guide{
+        position: relative;
+        top: 2.3rem;
+        left: 30rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .about{
+        position: relative;
+        top: .5rem;
+        left: 50rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .hr{
+        border: 1px solid black;
+         width: 65%; 
+         position: relative; 
+         top: 1rem;
+          right: 8.5rem;
+    }
+    .fa-phone{
+        position: relative;
+        top: 1.5rem;
+        left: 10rem;
+        color: #000;
+    }
+    .fa-mobile{
+        position: relative;
+        top: 4rem;
+        left: 9rem;
+        color: #000;
+    }
+    .fa-envelope{
+        position: relative;
+        top: 6.5rem;
+        left: 8rem;
+        color: #000;
+    }
+    
+    .phone{
+        position: relative;
+        left: 12rem;
+        color: #000;
+    }
+    .mobile{
+        position: relative;
+        left: 12rem;
+        color: black;
+    }
+    .email{
+        position: relative;
+        left: 12rem;
+        color: #000;
+    }
+     
+    .order{
+        position: relative;
+        bottom: 7.5rem;
+        left: 30rem;
+        color: #000;
+    }
+    
+    .delivery{
+        position: relative;
+        bottom: 7.5rem;
+        left: 30rem;
+        color: #000;
+    }
+    .returns{
+        position: relative;
+        bottom: 7.5rem;
+        left: 30rem;
+        
+        color: #000;
+    }
+    .terms{
+        position: relative;
+        bottom: 7.5rem;
+        left: 30rem;
+        color: #000;
+    }
+    .links a p:hover{
+        text-decoration: underline;
+    }
+    
+    .about-us{
+        position: relative;
+        bottom: 17.5rem;
+        left: 50rem;
+        color: #000;
+    }
+    .stores{
+        position: relative;
+        bottom: 17.5rem;
+        left: 50rem;
+        color: #000;
+    }
+    
+    .fa-facebook{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 65rem;
+        bottom: 22.5rem;
+    }
+    .fa-twitter{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 62.75rem;
+        bottom: 20rem;
+    }
+    .fa-whatsapp-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 60.5rem;
+        bottom: 17.5rem;
+    }
+    .fa-instagram-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 58.5rem;
+        bottom: 15rem;
+    }
+    
+    .feedback{
+        height: 7.5rem;
+        background-color: whitesmoke;
+    }
+    .button{
+        background-color: black;
+        position: relative;
+        top: 1.85rem;
+     
+        border-radius: 10px;
+    }
+    .heading3{
+        color: white;
+        font-family: 'Oswald', sans-serif;  
+        position: relative;
+        top: 0.3rem; 
+    }
+    .footer{
+        height: 3.5rem;
+        background-color: black;
+    }
+    .copyright{
+        color: white;
+        position: relative;
+        top: 0.85rem;
+        left: 10%;
+    }
+
+    .login-page{
+        background-color: whitesmoke; 
+        height: 30rem;
+    }
+    
+    .login{
+        background-color: whitesmoke;
+        width: 20rem;
+        
+        position: relative;
+        bottom: 30rem;
+        top: 1rem;
+        
+    }
+    
+    .login-button{
+        position: relative;
+        
+        top: 4rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    /* .signup{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        left: 16.4%;
+    
+        bottom: 19rem;
+    }
+    .signup-button{
+        position: relative;
+    
+        top: 7rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    } */
+    .para2{
+        position: relative;
+        top: 1rem;
+    }
+    .about-us-page{
+        background-color: whitesmoke;
+         height: 20rem;
+    }
+    .delivery-page{
+        background-color: whitesmoke;
+         height: 28rem;
+    }
+    .order-process{
+        background-color: whitesmoke; 
+        height: 19.35rem; 
+    }
+    .returns-page{
+        background-color: whitesmoke; 
+        height: 23rem;
+    }
+    .tc-page{
+        background-color: whitesmoke;
+        height: 32.5rem; 
+    }
+    .returns-text{
+        position: relative; 
+        top: 1em;
+    }
+    
+    .br1,.br2,.br3,.br9,.space1,.space2,.space3,.space9,
+    .br10,.space10,.br11,.space11,.br12,.space12,.br13,.space13,.br14,.space14,
+    .br15,.space15,.br16,.space16,.br17,.space17,.br18,.space18,
+    .br19,.space19,.br20,.space20,.br21,.space21,.br22,.space22,.br23,
+    .space23,.br24,.space24,
+    .br25,.space25,.br26,.space26,.br27,.space27,.br28,.space28,.br29,.space29,
+    .br30,.space30,
+    .br31,.space31,.br32,.space32,.br33,.space33,.br34,.space34,.br35,.space35,
+    .br36,.space36,.br37,.space37,.br38,.space38,.br39,.space39,.br40,.space40,
+    .br41,.space41,.br42,.space42,.br43,.space43,.br44,.space44,.br45,.space45,
+    .br46,.space46,
+    .br47,.space47,.br48,.space48,.br49,.space49,.br50,.space50,
+    .br51,.space51,.br52,.space52,.br53,.space53,.br54,.space54,.br55,.space55,
+    .br56,.space56,.br57,.space57,.br58,.space58,.br59,.space59,
+    .br60,.space60,.br61,.space61,.br62,.space62{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199.99px) and (min-width: 992px){
+    nav{
+        background-color: black;
+        height: 100%;
+        border-bottom: 1px solid gray;
+    }
+    
+    .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .nav-item {
+        
+        position: relative; 
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    .mr-auto{    
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%); 
+    }
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    .nav-item a{
+        
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+     .dropdown-item{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+     }
+     
+     .dropdown-menu a:hover{
+         color: white;
+         background-color: black;
+     }
+    
+     .dropdown-menu a{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .dropdown-toggle:after {
+        visibility: hidden;
+    }
+    .fa-user{
+        position: relative;
+        top: 0.5rem;
+    }
+    .fa-shopping-cart{
+        position: relative;
+        top: 0.5rem;
+    }
+    .carousel{
+        background-color: gray;
+        
+    }
+    .img{
+        width: 30rem;
+        height: 37.6rem;
+    }
+    .text{
+        background-color: whitesmoke;
+        position: relative;
+        margin-top: -0.5rem;
+        height: 100%;
+    }
+    .heading1{
+        position: relative;
+        margin-top: 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .para{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .heading2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+    .heading2:hover{
+        text-decoration: underline;
+    }
+    #carouselExampleCaptions{
+        height: 27.rem;
+    }
+    .img2{
+        width: 30rem;
+        height: 27rem;
+    }
+    .carousel-caption p{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .subscription{
+        height: 6rem;
+        
+        background-color: whitesmoke;
+    }
+    /* .box{
+        background-color: #000;
+        position: relative;
+        left: 10rem;
+        width: 7rem;
+        height: 3rem;
+    } */
+    
+    .text2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .text2:hover{
+        text-decoration: underline;
+    }
+    .text3{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+        color: black;
+        position: relative;
+        right: 3rem;
+    }
+    .text4{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+        color: black;
+        position: relative;
+        bottom: 2.5rem;
+        left:18.5rem;
+    }
+    .text4:hover{
+        text-decoration: underline;
+    }
+    .links{
+        background-color: lightgray;
+        height: 22rem;
+        
+    }
+    
+    .help{
+        position: relative;
+        top: 4rem;
+        left: 4rem;
+        color: #000;
+        font: 1em Bell Gothic Std Black;
+        
+    }
+    .guide{
+        position: relative;
+        top: 2.3rem;
+        left: 20rem;
+        color: #000;
+        font: 1em Bell Gothic Std Black
+    }
+    .about{
+        position: relative;
+        top: .5rem;
+        left: 35rem;
+        color: #000;
+        font: 1em Bell Gothic Std Black
+    }
+    .hr{
+        border: 1px solid black;
+         width: 65%; 
+         position: relative; 
+         top: 1rem;
+          right: 8.5rem;
+    }
+    .fa-phone{
+        position: relative;
+        top: 1.5rem;
+        left: 4rem;
+        color: #000;
+    }
+    .fa-mobile{
+        position: relative;
+        top: 4rem;
+        left: 3rem;
+        color: #000;
+    }
+    .fa-envelope{
+        position: relative;
+        top: 6.5rem;
+        left: 2rem;
+        color: #000;
+    }
+    
+    .phone{
+        position: relative;
+        left: 6rem;
+        color: #000;
+    }
+    .mobile{
+        position: relative;
+        left: 6rem;
+        color: black;
+    }
+    .email{
+        position: relative;
+        left: 6rem;
+        color: #000;
+    }
+     
+    .order{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    
+    .delivery{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    .returns{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        
+        color: #000;
+    }
+    .terms{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    .links a p:hover{
+        text-decoration: underline;
+    }
+    
+    .about-us{
+        position: relative;
+        bottom: 17.5rem;
+        left: 35rem;
+        color: #000;
+    }
+    .stores{
+        position: relative;
+        bottom: 17.5rem;
+        left: 35rem;
+        color: #000;
+    }
+    
+    .fa-facebook{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 55rem;
+        bottom: 22.5rem;
+    }
+    .fa-twitter{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 52.75rem;
+        bottom: 20rem;
+    }
+    .fa-whatsapp-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 50.5rem;
+        bottom: 17.5rem;
+    }
+    .fa-instagram-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 48.5rem;
+        bottom: 15rem;
+    }
+    
+    .feedback{
+        height: 7.5rem;
+        background-color: whitesmoke;
+    }
+    .button{
+        background-color: black;
+        position: relative;
+        top: 1.85rem;
+     
+        border-radius: 10px;
+    }
+    .heading3{
+        color: white;
+        font: 2.5em Bell Gothic Std Black;  
+        position: relative;
+        top: 0.3rem; 
+    }
+    .footer{
+        height: 3.5rem;
+        background-color: black;
+    }
+    .copyright{
+        color: white;
+        position: relative;
+        top: 0.85rem;
+        left: 10%;
+    }
+    
+    
+    .login-page{
+        background-color: whitesmoke; 
+        height: 30rem;
+    }
+    
+    .login{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        bottom: 30rem;
+        top: 1rem;
+        
+    }
+    
+    .login-button{
+        position: relative;
+    
+        top: 4rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .signup{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        left: 16.4%;
+    
+        bottom: 19rem;
+    }
+    .signup-button{
+        position: relative;
+    
+        top: 7rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .para2{
+        position: relative;
+        top: 1rem;
+    }
+    .about-us-page{
+        background-color: whitesmoke;
+         height: 20rem;
+    }
+    .delivery-page{
+        background-color: whitesmoke;
+         height: 28rem;
+    }
+    .order-process{
+        background-color: whitesmoke; 
+        height: 20rem; 
+    }
+    .returns-page{
+        background-color: whitesmoke; 
+        height: 23rem;
+    }
+    .tc-page{
+        background-color: whitesmoke;
+        height: 32.5rem; 
+    }
+    .returns-text{
+        position: relative; 
+        top: 1em;
+    }
+    .br2,.br3,.space2,.space3,.br9,.space9,
+    .br10,.space10,.br11,.space11,.br12,.space12,.br13,.space13,.br14,.space14,
+    .br15,.space15,.br16,.space16,.br17,.space17,.br18,.space18,
+    .br19,.space19,.br20,.space20,.br21,.space21,.br22,.space22,.br23,.space23,
+    .br25,.space25,.br26,.space26,.br27,.space27,.br28,.space28,.br29,.space29,
+    .br30,.space30,
+    .br31,.space31,.br32,.space32,.br33,.space33,.br34,.space34,.br35,.space35,
+    .br36,.space36,.br37,.space37,.br38,.space38,.br39,.space39,.br40,.space40,
+    .br41,.space41,.br42,.space42,.br43,.space43,.br44,.space44,.br45,.space45,
+    .br46,.space46,
+    .br47,.space47,.br48,.space48,.br49,.space49,.br50,.space50,
+    .br51,.space51,.br52,.space52,.br53,.space53,.br54,.space54,.br55,.space55,
+    .br56,.space56,.br57,.space57,.br58,.space58,.br59,.space59,
+    .br60,.space60,.br61,.space61,.br62,.space62{
+        display: none;
+    }
+    .hr2{
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991.99px) and (min-width: 768px){
+    nav{
+        background-color: black;
+        height: 100%;
+    }
+    
+    .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .nav-item {
+        
+        position: relative; 
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    .mr-auto{    
+            position: absolute;
+            left: 52.5%;
+            bottom: 0.5rem;
+            transform: translatex(-52.5%);
+            visibility: visible;
+            display: flex !important;
+            flex-direction: row !important; 
+        }
+    
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    .nav-item a{
+        
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+     .dropdown-item{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+     }
+     
+     .dropdown-menu a:hover{
+         color: white;
+         background-color: black;
+     }
+    
+     .dropdown-menu a{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .dropdown-toggle:after {
+        visibility: hidden;
+    }
+    .mr-sm-2{
+        
+        position: absolute;
+            left: 55%;
+            top: -0.6em;
+            transform: translatex(-55%);
+
+}
+    .fa-user{
+        float: right;
+    }
+    .fa-shopping-cart{
+        float: right;
+    }
+    .fa-nav{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .carousel{
+        background-color: gray;
+        
+    }
+    .img{
+        width: 30rem;
+        height: 37.6rem;
+    }
+    .text{
+        background-color: whitesmoke;
+        position: relative;
+        margin-top: -0.5rem;
+        height: 100%;
+    }
+    .heading1{
+        position: relative;
+        margin-top: 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .para{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .heading2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+    .heading2:hover{
+        text-decoration: underline;
+    }
+    #carouselExampleCaptions{
+        height: 27.rem;
+    }
+    .img2{
+        width: 30rem;
+        height: 27rem;
+    }
+    .carousel-caption p{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .subscription{
+        height: 9rem;
+        
+        background-color: whitesmoke;
+    }
+    /* .box{
+        background-color: #000;
+        position: relative;
+        left: 10rem;
+        width: 7rem;
+        height: 3rem;
+    } */
+    
+    .text2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .text2:hover{
+        text-decoration: underline;
+    }
+    .text3{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        position: relative;
+        right: 3rem;
+        left: 0.1rem;
+    }
+    .text4{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        
+    }
+    .text4:hover{
+        text-decoration: underline;
+    }
+    .links{
+        background-color: lightgray;
+        height: 25rem;
+        
+    }
+    
+    .help{
+        position: relative;
+        top: 4rem;
+        left: 4rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+        
+    }
+    .guide{
+        position: relative;
+        top: 2.3rem;
+        left: 20rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+    }
+    .about{
+        position: relative;
+        top: .5rem;
+        left: 35rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+    }
+    .hr{
+        border: 1px solid black;
+         width: 90%; 
+         position: relative; 
+         top: 1rem;
+         right: 1rem;
+          
+    }
+    .fa-phone{
+        position: relative;
+        top: 1.5rem;
+        left: 4rem;
+        color: #000;
+    }
+    .fa-mobile{
+        position: relative;
+        top: 4rem;
+        left: 3rem;
+        color: #000;
+    }
+    .fa-envelope{
+        position: relative;
+        top: 6.5rem;
+        left: 2rem;
+        color: #000;
+    }
+    
+    .phone{
+        position: relative;
+        left: 6rem;
+        color: #000;
+    }
+    .mobile{
+        position: relative;
+        left: 6rem;
+        color: black;
+    }
+    .email{
+        position: relative;
+        left: 6rem;
+        color: #000;
+    }
+     
+    .order{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    
+    .delivery{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    .returns{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        
+        color: #000;
+    }
+    .terms{
+        position: relative;
+        bottom: 7.5rem;
+        left: 20rem;
+        color: #000;
+    }
+    .links a p:hover{
+        text-decoration: underline;
+    }
+    
+    .about-us{
+        position: relative;
+        bottom: 17.5rem;
+        left: 35rem;
+        color: #000;
+    }
+    .stores{
+        position: relative;
+        bottom: 17.5rem;
+        left: 35rem;
+        color: #000;
+    }
+    
+     .fa-facebook{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 4rem;
+        bottom: 12rem;
+    }
+    .fa-twitter{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 5rem;
+        bottom: 12rem;
+    }
+    .fa-whatsapp-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 6rem;
+        bottom: 12rem;
+    }
+    .fa-instagram-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 7rem;
+        bottom: 12rem;
+    }
+    
+    .feedback{
+        height: 7.5rem;
+        background-color: whitesmoke;
+    }
+    .button{
+        background-color: black;
+        position: relative;
+        top: 1.85rem;
+     
+        border-radius: 10px;
+    }
+    .heading3{
+        color: white;
+        font: 2.5em Bell Gothic Std Black;  
+        position: relative;
+        top: 0.3rem; 
+    }
+    .footer{
+        height: 3.5rem;
+        background-color: black;
+    }
+    .copyright{
+        color: white;
+        position: relative;
+        top: 0.85rem;
+        left: 10%;
+    }
+    
+    .login-page{
+        background-color: whitesmoke; 
+        height: 30rem;
+    }
+    
+    .login{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        bottom: 30rem;
+        top: 1rem;
+  
+    }
+    
+    .login-button{
+        position: relative;
+    
+        top: 4rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .signup{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        left: 8%;
+    
+        bottom: 19rem;
+    }
+    .signup-button{
+        position: relative;
+    
+        top: 7rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .para2{
+        position: relative;
+        top: 1rem;
+    }
+    .about-us-page{
+        background-color: whitesmoke;
+         height: 20rem;
+    }
+    .delivery-page{
+        background-color: whitesmoke;
+         height: 28rem;
+    }
+    .order-process{
+        background-color: whitesmoke; 
+        height: 21rem; 
+    }
+    .returns-page{
+        background-color: whitesmoke; 
+        height: 23rem;
+    }
+    .tc-page{
+        background-color: whitesmoke;
+        height: 32.5rem; 
+    }
+    .returns-text{
+        position: relative; 
+        top: 1em;
+    }
+    .br2,.space2,.br10,.space10,.br11,.space11,.br12,.space12,.br13,.space13,.br14,.space14,
+    .br15,.space15,.br16,.space16,.br17,.space17,.br18,.space18,
+    .br19,.space19,.br20,.space20,.br21,.space21,.br22,.space22,.br23,.space23,
+    .br24,.space24,
+    .br25,.space25,.br26,.space26,.br27,.space27,.br28,.space28,.br29,.space29,
+    .br30,.space30,
+    .br31,.space31,.br32,.space32,.br33,.space33,.br34,.space34,.br35,.space35,
+    .br36,.space36,.br37,.space37,.br38,.space38,.br39,.space39,.br40,.space40,
+    .br41,.space41,.br42,.space42,.br43,.space43,.br44,.space44,.br45,.space45,
+    .br46,.space46,
+    .br47,.space47,.br48,.space48,.br49,.space49,.br50,.space50,
+    .br51,.space51,.br52,.space52,.br53,.space53,.br54,.space54,.br55,.space55,
+    .br56,.space56,.br57,.space57,.br58,.space58,.br59,.space59,
+    .br60,.space60,.br61,.space61,.br62,.space62,.b1,.b2,.b3,.b4,.b5,.b6
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767.99px) and (min-width: 576px){
+    nav{
+        background-color: black;
+        height: 100%;
+    }
+    
+    .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .nav-item {
+        
+        position: relative; 
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    .mr-auto{    
+        position: absolute;
+        left: 50%;
+        bottom: 0.5rem;
+        transform: translatex(-50%);
+        visibility: visible;
+        display: flex !important;
+        flex-direction: row !important; 
+    }
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    .nav-item a{
+        
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+     .dropdown-item{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+     }
+     
+     .dropdown-menu a:hover{
+         color: white;
+         background-color: black;
+     }
+    
+     .dropdown-menu a{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .dropdown-toggle:after {
+        visibility: hidden;
+    }
+
+    .mr-sm-2{
+        
+        position: absolute;
+            left: 55%;
+            top: -0.6em;
+            transform: translatex(-55%);
+
+}
+    .fa-user{
+        float: right;
+    }
+    .fa-shopping-cart{
+        float: right;
+    }
+    .fa-nav{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .carousel{
+        background-color: gray;
+        
+    }
+    .img{
+        width: 30rem;
+        height: 37.6rem;
+    }
+    .text{
+        background-color: whitesmoke;
+        position: relative;
+        margin-top: -0.5rem;
+        height: 100%;
+    }
+    .heading1{
+        position: relative;
+        margin-top: 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .para{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .heading2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+    .heading2:hover{
+        text-decoration: underline;
+    }
+    #carouselExampleCaptions{
+        height: 27.rem;
+    }
+    .img2{
+        width: 30rem;
+        height: 27rem;
+    }
+    .carousel-caption p{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .subscription{
+        height: 10rem;
+        
+        background-color: whitesmoke;
+    }
+    
+    
+    .text2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .text2:hover{
+        text-decoration: underline;
+    }
+    .text3{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        position: relative;
+        left: 0.1rem;
+    }
+    .text4{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+    }
+    .text4:hover{
+        text-decoration: underline;
+    }
+    .links{
+        background-color: lightgray;
+        height: 25rem;
+        
+    }
+    
+    .help{
+        position: relative;
+        top: 4rem;
+        left: 2rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+        
+    }
+    .guide{
+        position: relative;
+        top: 2.3rem;
+        left: 15rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+    }
+    .about{
+        position: relative;
+        top: .5rem;
+        left: 26.5rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1rem;
+    }
+    .hr{
+        border: 1px solid black;
+         width: 90%; 
+         position: relative; 
+         top: 1rem;
+         right: 0rem;
+          
+    }
+    .fa-phone{
+        position: relative;
+        top: 1.5rem;
+        left: 2rem;
+        color: #000;
+    }
+    .fa-mobile{
+        position: relative;
+        top: 4rem;
+        left: 1rem;
+        color: #000;
+    }
+    .fa-envelope{
+        position: relative;
+        top: 6.5rem;
+        left: 0rem;
+        color: #000;
+    }
+    
+    .phone{
+        position: relative;
+        left: 4rem;
+        color: #000;
+    }
+    .mobile{
+        position: relative;
+        left: 4rem;
+        color: black;
+    }
+    .email{
+        position: relative;
+        left: 4rem;
+        color: #000;
+    }
+     
+    .order{
+        position: relative;
+        bottom: 7.5rem;
+        left: 15rem;
+        color: #000;
+    }
+    
+    .delivery{
+        position: relative;
+        bottom: 7.5rem;
+        left: 15rem;
+        color: #000;
+    }
+    .returns{
+        position: relative;
+        bottom: 7.5rem;
+        left: 15rem;
+        
+        color: #000;
+    }
+    .terms{
+        position: relative;
+        bottom: 7.5rem;
+        left: 15rem;
+        color: #000;
+    }
+    .links a p:hover{
+        text-decoration: underline;
+    }
+    
+    .about-us{
+        position: relative;
+        bottom: 17.5rem;
+        left: 26.5rem;
+        color: #000;
+    }
+    .stores{
+        position: relative;
+        bottom: 17.5rem;
+        left: 26.5rem;
+        color: #000;
+    }
+    
+     .fa-facebook{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 2rem;
+        bottom: 12rem;
+    }
+    .fa-twitter{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 3rem;
+        bottom: 12rem;
+    }
+    .fa-whatsapp-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 4rem;
+        bottom: 12rem;
+    }
+    .fa-instagram-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 5rem;
+        bottom: 12rem;
+    }
+    
+    .feedback{
+        height: 7.5rem;
+        background-color: whitesmoke;
+    }
+    .button{
+        background-color: black;
+        position: relative;
+        top: 1.85rem;
+     
+        border-radius: 10px;
+    }
+    .heading3{
+        color: white;
+        font: 2.5em Bell Gothic Std Black;  
+        position: relative;
+        top: 0.3rem; 
+    }
+    .footer{
+        height: 3.5rem;
+        background-color: black;
+    }
+    .copyright{
+        color: white;
+        position: relative;
+        top: 0.85rem;
+        left: 10%;
+    }
+    
+    .login-page{
+        background-color: whitesmoke; 
+        height: 50rem;
+    }
+    
+    .login{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        bottom: 30rem;
+        top: 7rem;
+        left: 0%;
+    }
+    
+    .login-button{
+        position: relative;
+    
+        top: 4rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .signup{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        left: 5%;
+    
+        bottom: 19rem;
+    }
+    .signup-button{
+        position: relative;
+    
+        top: 7rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .para2{
+        position: relative;
+        top: 1rem;
+    }
+    .about-us-page{
+        background-color: whitesmoke;
+         height: 20rem;
+    }
+    .delivery-page{
+        background-color: whitesmoke;
+         height: 34rem;
+    }
+    .order-process{
+        background-color: whitesmoke; 
+        height: 24rem; 
+    }
+    .returns-page{
+        background-color: whitesmoke; 
+        height: 28rem;
+    }
+    .tc-page{
+        background-color: whitesmoke;
+        height: 37rem; 
+    }
+    .returns-text{
+        position: relative; 
+        top: 1em;
+    }
+    .br1,.space1,.br2,.space2,.br3,.space3,.br4,.space4,.br5,.space5,.br6,.space6,
+    .br7,.space7,.br8,.space8,.br9,.space9,.br24,.space24,
+    .br25,.space25,.br26,.space26,.br27,.space27,.br28,.space28,.br29,.space29,
+    .br30,.space30,
+    .br31,.space31,.br32,.space32,.br33,.space33,.br34,.space34,.br35,.space35,
+    .br36,.space36,.br37,.space37,.br38,.space38,.br39,.space39,.br40,.space40,
+    .br41,.space41,.br42,.space42,.br43,.space43,.br44,.space44,.br45,.space45,
+    .br46,.space46,
+    .br47,.space47,.br48,.space48,.br49,.space49,.br50,.space50,
+    .br51,.space51,.br52,.space52,.br53,.space53,.br54,.space54,.br55,.space55,
+    .br56,.space56,.br57,.space57,.br58,.space58,.br59,.space59,
+    .br60,.space60,.br61,.space61,
+    .b1,.b2,.b3,.b4,.b5,.b6
+    {
+        display: none;
+    }
+} 
+
+
+
+
+
+@media only screen and (max-width: 575.99px){
+    nav{
+        background-color: black;
+        height: 100%;
+        
+        
+    }
+    
+    
+    .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .nav-item {
+        
+        position: relative; 
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    .mr-auto{    
+        position: absolute;
+        left: 55%;
+        bottom: 0.5rem;
+        transform: translatex(-55%);
+        visibility: visible;
+        display: flex !important;
+        flex-direction: row !important; 
+    }
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    .nav-item a{
+        
+        padding-right: 0.3rem !important;
+        padding-left: 0.3rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+     .dropdown-item{
+        font-family: 'Corben', cursive;
+        font-size: 1rem;
+     }
+     
+     
+     
+     
+     .dropdown-menu a:hover{
+         color: white;
+         background-color: black;
+     }
+    
+     .dropdown-menu a{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    
+    .mr-sm-2{
+        position: relative;
+        left: 1.5rem;
+    
+        
+    }
+    .dropdown-toggle:after{
+        visibility: hidden;
+    }
+    .fa-user{
+        
+        position: relative;
+        left: -0.65rem; 
+        bottom: 0.3rem;
+    }
+    .fa-shopping-cart{
+        position: relative;
+        
+        top: 1.2rem;
+    }
+    /* .fa-nav{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    } */
+    .carousel{
+        background-color: gray;
+        
+    }
+    .img{
+        width: 30rem;
+        height: 37.6rem;
+    }
+    .text{
+        background-color: whitesmoke;
+        position: relative;
+        margin-top: -0.5rem;
+        height: 100%;
+    }
+    .heading1{
+        position: relative;
+        margin-top: 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .para{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .heading2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+    .heading2:hover{
+        text-decoration: underline;
+    }
+    #carouselExampleCaptions{
+        height: 27.rem;
+    }
+    .img{
+        width: 20rem;
+        height: 27rem;
+    }
+    .img2{
+        width: 20rem;
+        height: 27rem;
+    }
+    .carousel-caption p{
+        font-family: 'Corben', cursive;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .subscription{
+        height: 11.5rem;
+        
+        background-color: whitesmoke;
+    }
+    
+    
+    .text2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .text2:hover{
+        text-decoration: underline;
+    }
+    .text3{
+        font-family: 'Corben', cursive;
+        font-size: 1.2em;
+        color: black;
+        position: relative;
+        left: 0.1rem;
+    }
+    .text4{
+        font-family: 'Corben', cursive;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+    }
+    .text4:hover{
+        text-decoration: underline;
+    }
+    .links{
+        background-color: lightgray;
+        height: 40rem;
+        
+    }
+    
+    .help{
+        position: relative;
+        top: 20rem;
+        left: 1.5rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem; 
+        
+    }
+    .guide{
+        position: relative;
+        top: 2.3rem;
+        left: 1.5rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem; 
+    }
+    .about{
+        position: relative;
+        top: .5rem;
+        left: 12rem;
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem; 
+    }
+    .hr{
+        border: 1px solid black;
+         width: 100%; 
+         position: relative; 
+         top: 1rem;
+         right: 0rem;
+          
+    }
+    .hr2{
+        border: 1px solid black;
+         width: 100%; 
+         position: relative; 
+         top: 16rem;
+         
+         
+          
+    }
+    .fa-phone{
+        position: relative;
+        top: 17rem;
+        left: 1.5rem;
+        color: #000;
+    }
+    .fa-mobile{
+        position: relative;
+        top: 19.5rem;
+        left: 0.5rem;
+        color: #000;
+    }
+    .fa-envelope{
+        position: relative;
+        top: 22rem;
+        left: -0.5rem;
+        color: #000;
+    }
+    
+    .phone{
+        position: relative;
+        top: 15.4rem;
+        left: 3.5rem;
+        color: #000;
+    }
+    .mobile{
+        position: relative;
+        top: 15.4rem;
+        left: 3.5rem;
+        color: black;
+    }
+    .email{
+        position: relative;
+        top: 15.4rem;
+        left: 3.5rem;
+        color: #000;
+    }
+     
+    .order{
+        position: relative;
+        bottom: 7.5rem;
+        left: 1.5rem;
+        color: #000;
+    }
+    
+    .delivery{
+        position: relative;
+        bottom: 7.5rem;
+        left: 1.5rem;
+        color: #000;
+    }
+    .returns{
+        position: relative;
+        bottom: 7.5rem;
+        left: 1.5rem;
+        
+        color: #000;
+    }
+    .terms{
+        position: relative;
+        bottom: 7.5rem;
+        left: 1.5rem;
+        color: #000;
+    }
+    .links a p:hover{
+        text-decoration: underline;
+    }
+    
+    .about-us{
+        position: relative;
+        bottom: 17.5rem;
+        left: 12rem;
+        color: #000;
+    }
+    .stores{
+        position: relative;
+        bottom: 17.5rem;
+        left: 12rem;
+        color: #000;
+    }
+    
+    .fa-facebook{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 16rem;
+        bottom: 7.5rem;
+    }
+    .fa-twitter{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 13.75rem;
+        bottom: 5rem;
+    }
+    .fa-whatsapp-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 11.5rem;
+        bottom: 2.5rem;
+    }
+    .fa-instagram-square{
+        color: black;
+        font-size: 2em;
+        position: relative;
+        left: 9.5rem;
+        bottom: 0rem;
+    }
+    
+    .feedback{
+        height: 7rem;
+        background-color: whitesmoke;
+    }
+    .button{
+        background-color: black;
+        position: relative;
+        top: 0.1rem;
+     
+        border-radius: 10px;
+    }
+    .heading3{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem; 
+        position: relative;
+        top: 0.3rem; 
+    }
+    .footer{
+        height: 3.5rem;
+        background-color: black;
+    }
+    .copyright{
+        color: white;
+        position: relative;
+        top: 0.85rem;
+        left: 10%;
+    }
+    
+    .login-page{
+        background-color: whitesmoke; 
+        height: 50rem;
+    }
+    
+    .login{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        bottom: 30rem;
+        top: 9rem;
+        left: 0%;
+    }
+    
+    .login-button{
+        position: relative;
+    
+        top: 4rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    /* .signup{
+        background-color: whitesmoke;
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        left: 0%;
+    
+        bottom: 19rem;
+    }
+    .signup-button{
+        position: relative;
+    
+        top: 7rem;
+        background-color: lightgray;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    } */
+    
+    .para2{
+        position: relative;
+        top: 1rem;
+    }
+    .about-us-page{
+        background-color: whitesmoke;
+         height: 30rem;
+    }
+    .delivery-page{
+        background-color: whitesmoke;
+         height: 51rem;
+    }
+    .order-process{
+        background-color: whitesmoke; 
+        height: 33rem; 
+    }
+    .returns-page{
+        background-color: whitesmoke; 
+        height: 33.5rem;
+    }
+    .tc-page{
+        background-color: whitesmoke;
+        height: 56.5rem; 
+    }
+    .returns-text{
+        position: relative; 
+        top: 1em; 
+    }
+    .br1,.space1,.br2,.space2,.br3,.space3,.br4,.space4,.br5,.space5,.br6,.space6,
+    .br7,.space7,.br8,.space8,.br10,.space10,.br11,.space11,.br12,.space12,
+    .br13,.space13,.br14,.space14,.br15,.space15,.br16,.space16,.br17,.space17,
+    .br18,.space18,.br19,.space19,.br20,.space20,.br21,.space21,.br22,.space22,
+    .br23,.space23,.br24,.space24,.b1,.b2,.b3,.b4,.b5,.b6
+    {
+        display: none;
+    }
+}
